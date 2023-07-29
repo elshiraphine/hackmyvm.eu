@@ -16,7 +16,7 @@ and, here we go.
 ## passive recon
 *i wanna tell something that i hate the new name of reconnaissance, footprinting is suck :>*
 
-here is my nmap result that scanned using rustscan for the fastest version. i also do nmap if rustscan has lack when doing scan. i wont share what commands i used for pentest, because, internet has large of resources to obtain from.
+here is my `nmap` result that scanned using `rustscan` for the fastest version. i also do `nmap` if `rustscan` has lack when doing scan. i wont share what commands i used for pentest, because, internet has large of resources to obtain from. (selfish time).
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/c9faad91-bd7b-4018-ac1e-11918db6bfbc)
 
@@ -30,7 +30,16 @@ well, there must be static site running on 80 port as always. and lets see how t
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/4aad95b1-2683-49f8-856a-28f7c3dc6aaf)
 
-just a simple AVI to MP4 conversion site, but how do i exploit it? i wanna record the website behavior to my burpsuite. ill be back after bruteforcing the site's directory.
+just a simple AVI to MP4 conversion site. nothing interesting, but here i got a domain name for the site after uploading `.avi`.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/90069351-8a1f-4910-9db1-f310784a1e02)
+
+i will put it on `/etc/hosts`.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/ff36a14d-97c1-445d-97de-77193361c69b)
+
+
+i wanna record the website behavior to my burpsuite. ill be back after bruteforcing the site's directory.
 
 ## directory iteration
 
