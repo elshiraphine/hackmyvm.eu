@@ -8,3 +8,7 @@
 lets grab only the ip addresses using regex with `grep`.
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/73f3df94-d01e-4e5c-812f-8ecf99071acc)
+
+and, here we go.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/5ad30cdd-8eed-4878-ba1a-63e5e5e64125)
