@@ -13,8 +13,8 @@ and, here we go.
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/5ad30cdd-8eed-4878-ba1a-63e5e5e64125)
 
-## recon
-here is my nmap result that scanned from rustscan for the fastest version.
+## passive recon
+here is my nmap result that scanned using rustscan for the fastest version. i also do nmap if rustscan has lack when doing scan.
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/c3934bf6-581c-4775-ad9f-91b2d309bbf5)
 
