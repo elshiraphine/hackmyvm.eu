@@ -26,3 +26,8 @@ i do evilscan (simply like `nc -zv $victim 1-65535`) as well.
 
 well, there must be static site running on 80 port as always. and lets see how the site looks like.
 
+## 80/tcp
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/4aad95b1-2683-49f8-856a-28f7c3dc6aaf)
+
+just a simple AVI to MP4 conversion site, but how do i exploit it? i wanna record the website behavior to my burpsuite. lets see what we got.
