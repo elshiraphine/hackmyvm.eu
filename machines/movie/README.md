@@ -14,13 +14,15 @@ and, here we go.
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/5ad30cdd-8eed-4878-ba1a-63e5e5e64125)
 
 ## passive recon
-(i wanna tell something that i hate the new name of reconnaissance, footprinting is suck :>)
+*i wanna tell something that i hate the new name of reconnaissance, footprinting is suck :>*
 
-here is my nmap result that scanned using rustscan for the fastest version. i also do nmap if rustscan has lack when doing scan.
+here is my nmap result that scanned using rustscan for the fastest version. i also do nmap if rustscan has lack when doing scan. i wont share what commands i used for pentest, because, internet has large of resources to obtain from.
 
-![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/c3934bf6-581c-4775-ad9f-91b2d309bbf5)
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/c9faad91-bd7b-4018-ac1e-11918db6bfbc)
 
 i do evilscan (simply like `nc -zv $victim 1-65535`) as well.
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/15a3b950-2326-40e7-9e55-4261b3fe76ee)
+
+well, there must be static site running on 80 port as always. and lets see how the site looks like.
 
