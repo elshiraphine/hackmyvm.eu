@@ -31,3 +31,11 @@ well, there must be static site running on 80 port as always. and lets see how t
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/4aad95b1-2683-49f8-856a-28f7c3dc6aaf)
 
 just a simple AVI to MP4 conversion site, but how do i exploit it? i wanna record the website behavior to my burpsuite. lets see what we got.
+
+## directory iteration
+
+i did bruteforce to the directory using the fabulous automation, named it `feroxbuster`. preatty easy to use.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/14405eb7-c9e8-41e4-9602-5cf38e7b74d6)
+
+as you seen in the picture above, there bunch of interesting directory to explore around such as, `sitemap.xml`, `login.php`, `upload.php`, etc. 
