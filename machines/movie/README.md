@@ -2,7 +2,10 @@
 |-|-|-|
 |Movie|Medium|GNU/Linux|
 
-## Searching victim's ip address in my LAN network.
+# Table of contents
+* [searching victim's ip address in LAN Network.](#lan)
+
+## searching victim's ip address in my LAN network.{#lan}
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/dd9a8a04-9664-4654-948a-d5b95e7bf0f2)
 
 lets grab only the ip addresses using regex with `grep`.
