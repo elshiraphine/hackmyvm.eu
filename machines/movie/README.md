@@ -48,3 +48,24 @@ i did bruteforce to the directory using the fabulous automation, named it `ferox
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/14405eb7-c9e8-41e4-9602-5cf38e7b74d6)
 
 as you seen in the picture above, there bunch of interesting directory to explore around such as, `sitemap.xml`, `login.php`, `upload.php`, etc. 
+
+## command injection found
+since this website created as mp4 conversion, and file upload thing. i fired up my browser and looked for the vulnerability, then i found this
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/2fa7be96-4cc6-47d1-809d-ee577d986eee)
+
+i had to try that thing with burpsuite and rename the `filename` parameter to ping my local machine and have a test with `tcpdump` if the command injection works.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/c8173897-2d3f-49e1-a418-00355ad62e80)
+
+and i dont know why the response comes back bringing bunch of pings to the local machine, lets make our reverse shell to get into the system.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/243df01f-0485-4e72-a4ce-3e9da5b74cf7)
+
+## shell as www-data
+put the reverse shell down on `filename` parameter, and then send the request.
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/5193b977-cc06-4d19-b003-01ed445f6a4e)
+
+after that the shell comes up with the user as `www-data`.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/2c143c2f-7675-42e4-9ad8-82b234a6b469)
