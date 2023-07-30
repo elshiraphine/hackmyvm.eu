@@ -69,3 +69,23 @@ put the reverse shell down on `filename` parameter, and then send the request.
 after that the shell comes up with the user as `www-data`.
 
 ![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/2c143c2f-7675-42e4-9ad8-82b234a6b469)
+
+## getting root.txt
+in the following image, i see the sudoers listing up as `root` to execute `qrencode`. which has the ability to convert the string into PNG like this image given below.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/eea5ec6f-c6e4-48c9-adf9-367a60eb6f12)
+
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/8ab34f45-2ca4-474a-9d3a-89729c14247c)
+
+after that, i ran the `qrencode` to obtain the `root.txt` file while my eyes seeing the help text messages given by running `qrencode -h` lol.
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/df628c1c-3a73-435f-9448-c4f196eb07f3)
+
+and i searched for qr code converter, like in the following image given i have the content of `root.txt`. 
+
+![image](https://github.com/Satpamnesia/hackmyvm.eu/assets/44630640/b5d87660-64b5-47a1-a386-5c0a05da8abd)
+
+and yep, we rooted the machine.
+
+
