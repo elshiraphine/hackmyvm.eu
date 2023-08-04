@@ -201,3 +201,15 @@ cat end | grep 0JuAZ | awk '{print substr($1, 1, length($1)-5); }'
 ```
 
 Then, use the password to login with user lucy and cat the flag.
+
+### 012 - lucy
+
+The mission in user lucy said that the password of the user elena is between the characters fu and ck.
+
+So let's grep the string and pipe the command with awk.
+
+```sh
+cat file.yo | grep -o 'fu.*ck' | awk 'BEGIN{FS="fu|ck"} {gsub(/^.*fu|ck.*$/,""); print}'
+```
+
+Let's use the strings as the password of user elena and then get the flag.
